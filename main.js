@@ -1,4 +1,3 @@
-// ── DATA PORTFOLIO (edit sesuai data asli) ────────────────────
 const portfolioData = [
     {
         title: 'Scholarship Program',
@@ -65,7 +64,6 @@ const portfolioData = [
     // },
 ];
 
-// ── DATA BLOG (edit sesuai artikel asli) ─────────────────────
 const blogData = [
     {
         title: 'Designing HR Processes That Actually Scale',
@@ -93,7 +91,6 @@ const blogData = [
     },
 ];
 
-// ── RENDER PORTFOLIO ──────────────────────────────────────────
 function renderPortfolio() {
     const grid = document.getElementById('portfolio-grid');
     if (!grid) return;
@@ -146,7 +143,6 @@ function renderPortfolio() {
     });
 }
 
-// ── RENDER BLOG ───────────────────────────────────────────────
 function renderBlog() {
     const grid = document.getElementById('blog-grid');
     if (!grid) return;
@@ -177,7 +173,6 @@ function renderBlog() {
     });
 }
 
-// ── HAMBURGER MENU ────────────────────────────────────────────
 function initNav() {
     const toggle = document.getElementById('navToggle');
     const links  = document.getElementById('navLinks');
@@ -196,7 +191,6 @@ function initNav() {
     });
 }
 
-// ── SCROLL REVEAL ─────────────────────────────────────────────
 function initReveal() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry, i) => {
@@ -210,7 +204,6 @@ function initReveal() {
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 }
 
-// ── ACTIVE NAV ON SCROLL ──────────────────────────────────────
 function initActiveNav() {
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.nav-links a');
@@ -227,13 +220,11 @@ function initActiveNav() {
     }, { passive: true });
 }
 
-// ── FOOTER YEAR ───────────────────────────────────────────────
 function initYear() {
     const el = document.getElementById('year');
     if (el) el.textContent = new Date().getFullYear();
 }
 
-// ── INIT ──────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
     renderPortfolio();
     renderBlog();
