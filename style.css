@@ -118,7 +118,7 @@ nav {
 .hero-photo-ring::after { content: ''; position: absolute; top: 10%; right: -4px; width: 8px; height: 8px; background: var(--accent); border-radius: 50%; box-shadow: 0 0 12px var(--accent); }
 .hero-photo-ring-2 { position: absolute; inset: -24px; border-radius: 50%; border: 1px dashed var(--border); opacity: 0.6; animation: spin 20s linear infinite reverse; }
 
-.scroll-indicator { position: absolute; bottom: 32px; left: 35rem; display: flex; flex-direction: column; align-items: center; gap: 8px; color: var(--text-muted); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; }
+.scroll-indicator { position: absolute; bottom: 32px; left: 37rem; display: flex; flex-direction: column; align-items: center; gap: 8px; color: var(--text-muted); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; }
 .scroll-line { width: 1px; height: 40px; background: linear-gradient(var(--accent), transparent); animation: scrollLine 2s ease-in-out infinite; }
 
 /* ── ABOUT ── */
