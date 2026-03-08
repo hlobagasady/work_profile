@@ -11,7 +11,7 @@ const portfolioData = [
     },
     {
         title: 'Talent Development Program',
-        desc: 'Sebagai HR yang berfokus pada pertumbuhan aset manusia, saya tidak hanya mengelola administrasi pelatihan, tetapi merancang dan mengawal ekosistem pengembangan bakat yang adaptif. Fokus utama saya adalah memastikan setiap talent memiliki kompetensi yang relevan dengan tantangan industri yang dinamis, guna mendukung akselerasi bisnis perusahaan. Melalui rangkaian program ini, saya berhasil meningkatkan kualitas kompetensi karyawan sebesar dan berkontribusi langsung pada peningkatan produktivitas tim yang lebih terukur serta penurunan skill gap di internal perusahaan.',
+        desc: 'Sebagai HR yang berfokus pada pertumbuhan sumber daya manusia, saya tidak hanya mengelola administrasi pelatihan, tetapi merancang dan mengawal ekosistem pengembangan bakat yang adaptif. Fokus utama saya adalah memastikan setiap talent memiliki kompetensi yang relevan dengan tantangan industri yang dinamis, guna mendukung akselerasi bisnis perusahaan. Melalui rangkaian program ini, saya berhasil meningkatkan kualitas kompetensi karyawan sebesar dan berkontribusi langsung pada peningkatan produktivitas tim yang lebih terukur serta penurunan skill gap di internal perusahaan.',
         tags: ['People Development'],
         category: 'HR Program',
         url: null,
@@ -37,7 +37,7 @@ const portfolioData = [
         image: 'foto/portfolios/trascom.png',
     },
     {
-        title: 'Tata Kelola & Struktur Organisasi',
+        title: 'Created Governance & Organizational Structure',
         desc: 'Sebagai seorang HR, saya menyusun regulasi perusahaan dan SOP yang terstandarisasi untuk meningkatkan kejelasan peran, kepatuhan, serta menciptakan proses kerja yang lebih konsisten dan scalable.',
         tags: ['Administration'],
         category: 'HR Program',
